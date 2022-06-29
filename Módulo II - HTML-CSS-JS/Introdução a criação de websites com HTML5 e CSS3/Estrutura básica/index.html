@@ -1,29 +1,41 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" href="style.css">
         <meta charset="UTF-8">
         <title>Ralf Dewrich</title>
     </head>
     <body>
-        Ralf Dewrich
+        <header>
+            <img src="ralf.jpg" alt="Ilustração do rosto do Ralf Dewrich">
+            <h1 id="title">Ralf Dewrich</h1>
+        </header>
+        <section>
+            <header>
+                <h2 class="subtitle">Posts</h2>
+            </header>
+            <article class="post">
+                <header>
+                    <h3 class="post_title">Post #1</h3>
+                    <img src="jcole.png" alt="Ilustração de J Cole">
+                </header>
+                <p>
+                    Lorem ipsum dolor sit amet, <a href="https://www.linkedin.com/in/ralfferreira/" target="_blank">consectetur adipiscing elit.</a> Duis euismod molestie nisi, quis ullamcorper urna commodo condimentum. <a href="mailto:ralfferreira995@gmail.com">Vestibulum ut suscipit diam</a>, ac luctus elit. Suspendisse potenti. Nunc sed lobortis lectus. Mauris venenatis rhoncus egestas. Aenean dapibus consectetur ipsum, in tempor turpis lobortis ut. Quisque auctor quis libero eget maximus. Etiam ut vehicula est. Aliquam erat volutpat. Aenean vel nisl hendrerit, euismod tortor vitae, cursus dui. Morbi venenatis tortor nec mauris fermentum gravida. Cras accumsan commodo mauris, ut interdum enim vehicula in. Nunc arcu augue, eleifend eu hendrerit a, ultrices a quam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas nec mi eget lorem pulvinar placerat.
+                </p>
+            </article>
+        </section>
+        <footer>
+            <ol>
+                <li>
+                    <a href="mailto:ralfferreira995@gmail.com">ralfferreira995@gmail.com</a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/ralfferreira/" target="_blank">Linkedin</a>
+                </li>
+                <li>
+                    <a href="https://github.com/ralfferreira" target="_blank">GitHub</a>
+                </li>
+            </ol>
+        </footer>
     </body>
 </html>
-
-<!-- Definição e estrutura básica
-Em 1991 Tim Berners-Lee criou essa linguagem de marcação para melhorar a comunicação entre ele e seus colegas de trabalho no CERN, desde então já surgiram 5 versões e o HTML se tornou a base da web.
-Com o HTML definimos o significado e a estrutura do conteúdo da web e, além de texto, nossas páginas precisam de imagens, vídeos e vários outros formatos e para isso temos os elementos HTML.
-Um elemento HTML é formado pela tag de abertura e seus atributos, o conteúdo e uma tag de fechamento. E mais a frente veremos que existem elementos que não tem tag de fechamento.
-Com esses elementos podemos agrupar tipos de conteúdo, alterar tamanho e forma de fontes e adicionar diferentes mídias ao nossa página na web.
-E agora podemos ver como é a estrutura básica de um arquivo HTML.
-A primeira linha do documento deve ser o <!DOCTYPE html>, apesar de parecer um elemento HTML ela apenas diz ao navegador que ele está lidando com um arquivo do tipo HTML5. Os elementos HTML vem logo abaixo.
-<html>
-A tag html é a raiz do seu documento, todos os elementos HTML devem estar dentro dela. E nela nós informamos ao navegador qual é o idioma desse nosso documento, através do atributo lang, para o português brasileiro usamos pt-BR.
-<head>
-A tag head contém elementos que serão lidos pelo navegador, como os metadados - um exemplo é o charset, que é a codificação de caracteres e a mais comum é a UTF-8, o JavaScript com a tag script, o CSS através das tags style e link - veremos a diferença quando falarmos sobre CSS - e o título da página com a tag title.
-<body>
-E dentro da tag body colocamos todo o conteúdo visível ao usuário: textos, imagens, vídeos.
-Prática
-Como exercício para esse curso iremos construir um site pessoal, e precisamos começar com a estrutura básica que acabamos de ver.
-Vamos criar um arquivo index.html e adicionar o doctype e os elementos html, head e body.
-Depois adicionaremos os elementos meta e title, no primeiro adicionamos o atributo charset com o valor UTF-8 para dizer ao navegador qual é a codificação dos caracteres e no segundo podemos colocar nosso nome.
-E por último escreveremos nosso nome dentro do elemento body apenas para enxergarmos isso no navegador. -->
